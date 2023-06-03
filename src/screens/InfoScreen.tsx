@@ -1,12 +1,16 @@
-import {useNavigation, useRoute} from '@react-navigation/native';
-import {Box, HStack, Image, ScrollView, Text} from 'native-base';
-import React from 'react';
-import {SafeAreaView} from 'react-native-safe-area-context';
-import {images} from '../data/images';
+import React, { useEffect } from 'react';
+import { useRoute } from '@react-navigation/native';
+import { Box, HStack, Image, ScrollView, Text, View } from 'native-base';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { images } from '../data/images';
+import { StyleSheet } from 'react-native';
+import Mapbox, { MapView, MarkerView } from '@rnmapbox/maps';
+
+Mapbox.setAccessToken('N0nzkKU6polJuMY5oMfd');
 
 const InfoScreen = () => {
-  const {params} = useRoute();
-  const {screenData} = params;
+  const { params } = useRoute();
+  const { screenData } = params;
   const screenTitle = screenData.title;
   const data = screenData.data;
   const starCount = data?.stars;
@@ -21,6 +25,20 @@ const InfoScreen = () => {
   const map_image = images[data?.map_image];
   const infoImage = images[data?.infoImage];
   const infoImageTitle = data?.infoImageTitle;
+
+  useEffect(() => {
+    Mapbox.setAccessToken('N0nzkKU6polJuMY5oMfd');
+  }, []);
+
+  const initialRegion = {
+    latitude: 40.7128, // New York latitude
+    longitude: -74.006, // New York longitude
+    latitudeDelta: 0.0922,
+    longitudeDelta: 0.0421,
+  };
+
+  const initialCoordinate = [2.8179115829320835, 36.47900432124038];
+
   return (
     <SafeAreaView
       style={{
@@ -98,7 +116,7 @@ const InfoScreen = () => {
           </Box>
         )}
 
-        {map_image && (
+        {/* {map_image && (
           <Image
             alt="icon"
             source={map_image}
@@ -107,10 +125,35 @@ const InfoScreen = () => {
             resizeMode="cover"
             mb={5}
           />
-        )}
+        )} */}
+
+        <Mapbox.MapView
+          style={styles.map}
+          styleURL={`https://api.maptiler.com/maps/streets-v2/style.json?key=N0nzkKU6polJuMY5oMfd`}
+          logoEnabled={false}
+          attributionPosition={{ bottom: 8, right: 8 }}>
+          <Mapbox.Camera
+            defaultSettings={{
+              centerCoordinate: initialCoordinate,
+              zoomLevel: 8,
+            }}
+            type="CameraStop"
+          />
+          <Mapbox.PointAnnotation
+            id="point"
+            coordinate={initialCoordinate}></Mapbox.PointAnnotation>
+        </Mapbox.MapView>
       </ScrollView>
     </SafeAreaView>
   );
 };
 
 export default InfoScreen;
+
+const styles = StyleSheet.create({
+  map: {
+    flex: 1,
+    width: '100%',
+    height: 240,
+  },
+});
