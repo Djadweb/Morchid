@@ -59,9 +59,8 @@
                     "infoImage": "equipment_renaissance",
                     "second_description_title": "Santé et sécurité",
                     "second_description_text": "Cet établissement a pris des mesures de supplimentaires concernant la santé et l’hygiène afin de vous assurer un séjour toute en sécurité.",
-                    "third_description_title": "Adresses à proximités",
-                    "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                    "map_image": "renaissanceMap"
+                    "localisation": "localisation",
+                    "map_image": [-1.3163056627923027, 34.866535557972654]
                   }
                 },
                 {
@@ -78,9 +77,8 @@
                     "infoImage": "equipment_zianides",
                     "second_description_title": "Santé et sécurité",
                     "second_description_text": "Cet établissement a pris des mesures de supplimentaires concernant la santé et l’hygiène afin de vous assurer un séjour toute en sécurité.",
-                    "third_description_title": "Adresses à proximités",
-                    "third_description_text": "Situé à 10 minutes à pied au palais de Mechouar, cet hôtel contemporain est à 3,5 km de monument de Mansourah et de 0,8 de Mosquée de Sidi Boumedienne.",
-                    "map_image": "zianidesMap"
+                    "localisation": "localisation",
+                    "map_image": [-1.316919754716821, 34.882486557126896]
                   }
                 },
                 {
@@ -97,9 +95,8 @@
                     "infoImage": "equipment_ibis",
                     "second_description_title": "Santé et sécurité",
                     "second_description_text": "Cet établissement a pris des mesures de supplimentaires concernant la santé et l’hygiène afin de vous assurer un séjour toute en sécurité.",
-                    "third_description_title": "Adresses à proximités",
-                    "third_description_text": "Situé à 10 minutes du centre-ville, cet hôtel contemporain est à 2 km de monument de Mansourah et de 2,6 de Mosquée de Palais Mechouar.",
-                    "map_image": "ibisMap"
+                    "localisation": "localisation",
+                    "map_image": [-1.3098296488356596, 34.88273890272946]
                   }
                 }
               ]
@@ -119,11 +116,10 @@
                     "image": "paradiseLoungeCover",
                     "first_description_title": "Description",
                     "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                    "infoImageTitle": "Informations",
-                    "infoImage": "loungeInfo",
-                    "second_description_title": "Adresses à proximités",
-                    "second_description_text": "Situé juste à coté de la Société Générale de les Dahlias El Kiffane.",
-                    "map_image": "paradiseLoungeMap"
+                    "fb_link": "https://www.facebook.com/profile.php?id=100064667836975",
+                    "ig_link": "https://www.instagram.com/paradise_restaurant_tlemcen/",
+                    "localisation": "localisation",
+                    "map_image": [-1.3130885462089168, 34.88563549652497]
                   }
                 },
                 {
@@ -136,11 +132,10 @@
                     "image": "leJadikCover",
                     "first_description_title": "Description",
                     "first_description_text": "Le Jadik est un restaurant raffiné et élégant, situé dans la ville de Remchi. Dès que vous pénétrez le Jadik , vous êtes accueilli par une ambiance chaleureuse et une décoration moderne. Les choix de plats sont variés, allant des classiques revisités aux créations innovantes.",
-                    "infoImageTitle": "Informations",
-                    "infoImage": "loungeInfo",
-                    "second_description_title": "Adresses à proximités",
-                    "second_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                    "map_image": "paradiseLoungeMap"
+                    "fb_link": "https://www.facebook.com/profile.php?id=100063548481950",
+                    "ig_link": "https://www.instagram.com/le_jadik_remchi/",
+                    "localisation": "localisation",
+                    "map_image": [-1.3095423045765529, 34.883672149249236]
                   }
                 },
                 {
@@ -153,11 +148,10 @@
                     "image": "hartounCover",
                     "first_description_title": "Description",
                     "first_description_text": "L’equinoxe Hartoun, vous accueille tous les jours de 8H00 à 00H30. c’est un restaurant élégant et raffiné, ou l'on se sent comme chez soi, avec des plats traditionnel de la région de Tlemcen sur un fond de musique Andalouse.",
-                    "infoImageTitle": "Informations",
-                    "infoImage": "loungeInfo",
-                    "second_description_title": "Adresses à proximités",
-                    "second_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                    "map_image": "paradiseLoungeMap"
+                    "fb_link": "https://www.facebook.com/profile.php?id=100066858654375",
+                    "ig_link": "https://www.instagram.com/hartounequinoxe/",
+                    "localisation": "localisation",
+                    "map_image": [-1.3100138869361047, 34.88029453202371]
                   }
                 }
               ]
@@ -181,9 +175,8 @@
                         "image": "plageBerdjani",
                         "first_description_title": "Description",
                         "first_description_text": "    La plage de Barbajani, ou l'incroyable plage isolée, se trouve entre plusieurs formations rocheuses. C'est l'une des plus belles plages de la mer méditerranée et au monde. Ses eaux sont bleues et limpides, les vagues viennent bercer les nageurs jusqu’aux rochers. La vision panoramique et imparable. Sur la plage, vous pourrez pratiquer diverses activités telles que le surf, la natation, le canotage, etc.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "située à 120 km au nord-ouest de Tlemcen, à 58 km à l'ouest de Ghazaouet et à 66 km au nord-ouest de Maghnia",
-                        "map_image": "berdjaniPlageMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.6090611622845188, 35.223846279273445]
                       }
                     },
                     {
@@ -195,9 +188,8 @@
                         "image": "plageMarsa",
                         "first_description_title": "Description",
                         "first_description_text": "     La plage de Marsa Ben Mhidi ou  “Port Say” bénéficie généralement d'un climat agréable, avec des températures chaudes en été. Les eaux sont généralement calmes, ce qui en fait un lieu idéal pour se baigner et se rafraîchir. Les visiteurs peuvent profiter de moments de détente en se prélassant sur la plage, en se baignant dans la mer ou en pratiquant des activités nautiques comme le jet-ski ou la planche à voile.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "situé dans la Wilaya de Tlemcen à quelques kilomètres à l'ouest de la plage et du petit village balnéaire de Honaine et à une dizaines de kilomètres à l'est de la ville de Ghazaouet. Cette plage est encore à l'état sauvage et l'unique moyen d'y accéder est par bateau.",
-                        "map_image": "marsaMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.6174059596481811, 35.22022552480391]
                       }
                     },
                     {
@@ -209,9 +201,8 @@
                         "image": "plageMadrid",
                         "first_description_title": "Description",
                         "first_description_text": "    Au sud-est de la rentrée de la plage de Madrid (Beni Saf) et à quelques encablures au site paradisiaque de Rechgoun, se trouve le Parc d’attractions, au milieu de la foret de Madrid. un endroit familiale et calmepas loin de la Plage de Madrid.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 10 minutes de Rechgoun juste à la rentrée de la plage Madrid Tlemcen.",
-                        "map_image": "foretMadrid"
+                        "localisation": "localisation",
+                        "map_image": [-1.6290429013807, 35.21452675176914]
                       }
                     }
                   ]
@@ -230,9 +221,8 @@
                         "image": "mansorahCover",
                         "first_description_title": "Description",
                         "first_description_text": "difiée par les rois Mérinides pour conforter le siège de Tlemcen avant de devenir une véritable ville. Signe particulier, on y entre et accède dans l’enceinte par pas moins de 13 portes. Il n’en reste aujourd’hui que quelques pans de la muraille qui l’entourait et le minaret de la mosquée considéré comme le plus haut d’Algérie.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.3310585203566632, 34.87351847861085]
                       }
                     },
                     {
@@ -244,9 +234,8 @@
                         "image": "palaisCover",
                         "first_description_title": "Description",
                         "first_description_text": "Véritable joyau architectural de la ville de Tlemcen, capitale du Maghreb central, le palais El Mechouar, ancienne résidence des rois zianides et lieu de concertation et d'échanges, témoigne encore du faste de la dynastie. Le bastion, situé au cœur de la ville de Tlemcen, a été construit en 1234 par le premier Roi zianide, Yaghmoracen Ibn Ziane, qui en a fait le centre de la capitale d'un Etat qui a résisté à plusieurs offensives, pendant plus de trois siècles. Le visiteur du Palais découvre une œuvre architecturale unique composée jardins luxuriants et d'ornement aussi riches que diversifiés se distinguant particulièrement par le zellij, les colonnes, les fontaines et les fenêtres archéologiques.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.3076174672888499, 34.8879034059062]
                       }
                     }
                   ]
@@ -258,30 +247,28 @@
                   "list": [
                     {
                       "title": "Le grand Mosqué",
-                      "image": "grandMosqueGrid",
+                      "image": "grandmosqueSmall",
                       "screenName": "InfoScreen",
                       "data": {
                         "address": "Village Honaine, Tlemcen 13000",
-                        "image": "Grande_Mosquée_de_Tlemcen",
+                        "image": "grandmosqueBig",
                         "first_description_title": "Description",
                         "first_description_text": "La Grande Mosquée de Tlemcen est un joyau architectural au sens propre du mot. Cet édifice prestigieux de Tlemcen a vu sa construction débuté en 1102 sous Youcef IBN TACHFINE, puis a été agrandie en 1136 par le Sultan YAGHMORACEN IBN ZYAN Fondateur de la Dynastie des Zianides. Il ressort que la Dynastie des Almoravides ayant régné entre le 11ème et 12ème siècle; a légué un patrimoine puissant par son élégance où la Grande Mosquée de Tlemcen constitue un groupe avec la Grande Mosquée d Alger et la Grande Mosquée de Nedroma qui sont les seuls monuments de cette Dynastie.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.3104777522038376, 34.88369287688869]
                       }
                     },
                     {
-                      "title": "Mosqué Imam Ali",
-                      "image": "grandMosqueGrid",
+                      "title": "Mosquée Sidi Boumediene",
+                      "image": "sidiboumSmall",
                       "screenName": "InfoScreen",
                       "data": {
                         "address": "Frontières Maroc Algérie  Tlemcen  13000",
-                        "image": "Grande_Mosquée_de_Tlemcen",
+                        "image": "sidiboumBig",
                         "first_description_title": "Description",
                         "first_description_text": "La Grande Mosquée de Tlemcen est un joyau architectural au sens propre du mot. Cet édifice prestigieux de Tlemcen a vu sa construction débuté en 1102 sous Youcef IBN TACHFINE, puis a été agrandie en 1136 par le Sultan YAGHMORACEN IBN ZYAN Fondateur de la Dynastie des Zianides. Il ressort que la Dynastie des Almoravides ayant régné entre le 11ème et 12ème siècle; a légué un patrimoine puissant par son élégance où la Grande Mosquée de Tlemcen constitue un groupe avec la Grande Mosquée d Alger et la Grande Mosquée de Nedroma qui sont les seuls monuments de cette Dynastie.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "localisation": "localisation",
+                        "map_image": [-1.3132892558664366, 34.88109138296909]
                       }
                     }
                   ]
@@ -298,8 +285,8 @@
                   "icon": "artisan",
                   "screenName": "ArticleScreen",
                   "articleData": {
-                    "image": "traditionnel",
-                    "articleText": "   La Musique arabo-andalouse est un style de musique arabe varié dans des styles différents à travers le Maghreb (Algérie, Maroc et, dans une moindre mesure en Tunisie, et la Libye sous la forme du style Ma'luf). Elle est née de la musique d’Al-Andalus (Iberia musulmane) entre les 9 ème et 15 ème siècles. Certains de ses poèmes ont été trouvés à être composée par des auteurs tels que Al-Shushtari, Ibn al-Khatib et Al-Abbad ibn Mu'tamid. En Algérie, trois principaux styles ou écoles se trouvent:La Gharnatia dans la région de Tlemcen. Le Sanaa dans la région d'Alger. Le style Ma'luf dans l'est du pays à Constantine et Annaba.\nLa Musique arabo-andalouse aurait été né dans l'émirat de Cordoue (Al-Andalus) au 9ème siècle. Le musicien perse, résidant en Irak, Ziryab (d. 857), qui devint plus tard musicien de la cour d'Abd al-Rahman II de Cordoue, est parfois crédité de son invention."
+                    "image": "artisaTrad",
+                    "articleText": "   Riche d'un passé ancien, la ville de Tlemcen possède un artisanat antique qui est un précieux témoin d'un passé culturel légendaire, l'artisanat caractérise Tlemcen depuis des siècles, ce qui lui confère l'appellation de la Perle du Maghreb. La robe traditionelle et la maroquinerie Tlemcenienne sont connues dans toute l'Algérie. Tlemcen s'est distingué par la confection des habits traditionnels féminins comme la fetla, la couture traditionnelle et le mejboud. Les villages de Nedroma et M’sirda situé au nord de la Wilaya de Tlemcen sont réputés par la poterie où des ustensiles de cuisines de diverses formes et couleurs qui y sont fabriqués pour répondre aux besoins des ménagères. La région de Beni-Snous est connue pour la fabrication de la natte traditionnelle à base d’alfa et de matières premières tirées de la steppe ou de la montagne. L’alfa étant de moins en moins disponible, elle a été remplacée par la récupération des matières plastiques : sachets. Au moins l’esprit créatif de la Senoucia a trouvé un moyen de recyclage, à bon marché, pour remplacer les matières premières naturelles plus couteuses. Chaque quartier de Tlemcen est connu par une spécialité de l'artisanat, qui a donné lieu à l’appellation de ces quartiers et ruelles du nom des métiers prédominant comme c’est le cas, par exemple, de derb essabaghine (teinturiers)."
                   }
                 },
                 {
@@ -324,31 +311,29 @@
                   "screenName": "GridList",
                   "list": [
                     {
-                      "title": "SG",
-                      "image": "plage1",
+                      "title": "Société Générale",
+                      "image": "SG",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Village Honaine, Tlemcen 13000",
-                        "image": "plageCover",
+                        "address": "Résidence El Ikhlass Les Dahlias Kiffane,Tlemcen",
+                        "image": "SG_cover",
                         "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "first_description_text": "     La Société Générale opère dans plus de 60 pays à travers le monde, offrant une large gamme de services financiers aux particuliers, aux entreprises et aux institutions. Ses activités englobent la banque de détail, la banque d'investissement, la gestion d'actifs, l'assurance, les services aux entreprises et la banque privée.",
+                        "localisation": "localisation",
+                        "map_image": [-1.3146535370551362, 34.880351168050694]
                       }
                     },
                     {
-                      "title": "AGB",
-                      "image": "plage2",
+                      "title": "Gulf Bank Algérie",
+                      "image": "AGB_small",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Frontières Maroc Algérie  Tlemcen  13000",
-                        "image": "plageCover",
+                        "address": "5 Boulevard Bab El Khemis Tlemcen",
+                        "image": "AGB_cover",
                         "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "first_description_text": "    AGB Bank (Arab Gulf Bank) est une institution financière basée en Algérie. Fondée en 1985, AGB Bank propose une gamme de services bancaires aux particuliers, aux entreprises et aux institutions.",
+                        "localisation": "localisation",
+                        "map_image": [-1.2996941152829606, 34.88602535760491]
                       }
                     }
                   ]
@@ -359,31 +344,29 @@
                   "screenName": "GridList",
                   "list": [
                     {
-                      "title": "Mansourah",
-                      "image": "plage1",
+                      "title": "CHU Tlemcen",
+                      "image": "CHU_small",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Village Honaine Tlemcen 13000",
-                        "image": "plageCover",
+                        "address": "39, Rue l'arbi ben m'hidi, Tlemcen",
+                        "image": "CHU_cover",
                         "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "first_description_text": "    Le Centre Hospitalo-Universitaire (CHU) de Tlemcen est un établissement médical situé dans la ville de Tlemcen, en Algérie. Il s'agit d'un hôpital d'enseignement et de recherche qui joue un rôle clé dans la prestation de soins de santé avancés, la formation des professionnels de la santé et la recherche médicale.",
+                        "localisation": "localisation",
+                        "map_image": [-1.3081234774162738, 34.87235405251519]
                       }
                     },
                     {
-                      "title": "Palais Mechouar",
-                      "image": "plage2",
+                      "title": "EPH Remchi",
+                      "image": "EPH_small",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Frontières Maroc Algérie  Tlemcen  13000",
-                        "image": "plageCover",
+                        "address": "Remchi Tlemcen  13000",
+                        "image": "EPH_cover",
                         "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "first_description_text": "     L'EPH de Remchi est dédié à la fourniture de soins de santé de base et spécialisés. Il dispose de différents départements et services médicaux, tels que la médecine générale, la pédiatrie, la gynécologie-obstétrique, la chirurgie, l'orthopédie, la radiologie, la cardiologie, entre autres.",
+                        "localisation": "localisation",
+                        "map_image": [-1.315815326470556, 34.872154244129845]
                       }
                     }
                   ]
@@ -394,31 +377,29 @@
                   "screenName": "GridList",
                   "list": [
                     {
-                      "title": "Le grand Mosqué",
-                      "image": "plage1",
+                      "title": "Chohra Tours",
+                      "image": "chohra_small",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Village Honaine Tlemcen 13000",
-                        "image": "plageCover",
-                        "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "address": "Rue Benabdelmalek Ramdane, Tlemcen",
+                        "image": "chohra_cover",
+                        "localisation": "localisation",
+                        "fb_link": "https://www.facebook.com/chohratourstlemcen",
+                        "ig_link": "https://www.instagram.com/chohratours/",
+                        "map_image": [-1.3081234774162738, 34.87235405251519]
                       }
                     },
                     {
-                      "title": "Mosqué Imam Ali",
-                      "image": "plage2",
+                      "title": "Hala Tours",
+                      "image": "hala_small",
                       "screenName": "InfoScreen",
                       "data": {
-                        "address": "Frontières Maroc Algérie  Tlemcen  13000",
-                        "image": "plageCover",
-                        "first_description_title": "Description",
-                        "first_description_text": "Paradise Restaurant Lounge, vous accueille tous les jours de 8H00 à 00H30.le Paradise est un endroit ou le temps s'arrête, ou l'on se sent comme chez soi, un lieu de vie incontournable avec un acceuil chaleureux sur un fond de musique trendy.",
-                        "third_description_title": "Adresses à proximités",
-                        "third_description_text": "Situé à 6 minutes à pied du parc de loisirs Lalla Setti, cet hôtel contemporain est à 7 km de la Grande Mosquée de Tlemcen, qui date du XIe siècle, et du Palais de la Culture",
-                        "map_image": "paradiseLoungeMap"
+                        "address": "Rue pasteure, Tlemcen  13000",
+                        "image": "hala_cover",
+                        "localisation": "localisation",
+                        "fb_link": "https://www.facebook.com/halatours.pal",
+                        "ig_link": "https://www.instagram.com/halatours/",
+                        "map_image": [-1.3081234774162738, 34.87235405251519]
                       }
                     }
                   ]

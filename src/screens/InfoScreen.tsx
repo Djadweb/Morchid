@@ -1,10 +1,20 @@
 import React, { useEffect } from 'react';
 import { useRoute } from '@react-navigation/native';
-import { Box, HStack, Image, ScrollView, Text, View } from 'native-base';
+import {
+  Box,
+  HStack,
+  Image,
+  Pressable,
+  ScrollView,
+  Text,
+  View,
+} from 'native-base';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../data/images';
 import { StyleSheet } from 'react-native';
 import Mapbox, { MapView, MarkerView } from '@rnmapbox/maps';
+import { DebugInstructions } from 'react-native/Libraries/NewAppScreen';
+import { Linking } from 'react-native';
 
 Mapbox.setAccessToken('N0nzkKU6polJuMY5oMfd');
 
@@ -20,22 +30,16 @@ const InfoScreen = () => {
   const first_description_text = data?.first_description_text;
   const second_description_title = data?.second_description_title;
   const second_description_text = data?.second_description_text;
-  const third_description_title = data?.third_description_title;
-  const third_description_text = data?.third_description_text;
-  const map_image = images[data?.map_image];
+  const localisation = data?.localisation;
+  const fb_link = data?.fb_link;
+  const ig_link = data?.ig_link;
+  const map_image = data?.map_image;
   const infoImage = images[data?.infoImage];
   const infoImageTitle = data?.infoImageTitle;
 
   useEffect(() => {
     Mapbox.setAccessToken('N0nzkKU6polJuMY5oMfd');
   }, []);
-
-  const initialRegion = {
-    latitude: 40.7128, // New York latitude
-    longitude: -74.006, // New York longitude
-    latitudeDelta: 0.0922,
-    longitudeDelta: 0.0421,
-  };
 
   const initialCoordinate = [2.8179115829320835, 36.47900432124038];
 
@@ -105,17 +109,6 @@ const InfoScreen = () => {
           </Box>
         )}
 
-        {third_description_title && (
-          <Box>
-            <Text px={4} fontSize={20} fontWeight={600}>
-              {third_description_title}
-            </Text>
-            <Text px={5} pt={2} pb={6} fontSize={14}>
-              {third_description_text}
-            </Text>
-          </Box>
-        )}
-
         {/* {map_image && (
           <Image
             alt="icon"
@@ -126,23 +119,58 @@ const InfoScreen = () => {
             mb={5}
           />
         )} */}
+        {fb_link && (
+          <Box height={140} px={4} pb={10}>
+            <Text fontSize={20} fontWeight={600}>
+              Informations
+            </Text>
+            <HStack justifyContent="space-between">
+              <Pressable
+                onPress={() =>
+                  Linking.openURL(fb_link)
+                }>
+                <HStack alignItems="center" space={4} h="100%">
+                  <Image source={images.icons['facebook']} />
+                  <Text fontSize={17}>Facebook</Text>
+                </HStack>
+              </Pressable>
+              <Pressable
+                onPress={() =>
+                  Linking.openURL(ig_link)
+                }>
+                <HStack alignItems="center" space={4} h="100%">
+                  <Image source={images.icons['instagram']} />
+                  <Text fontSize={17}>Instagram</Text>
+                </HStack>
+              </Pressable>
+            </HStack>
+          </Box>
+        )}
 
-        <Mapbox.MapView
-          style={styles.map}
-          styleURL={`https://api.maptiler.com/maps/streets-v2/style.json?key=N0nzkKU6polJuMY5oMfd`}
-          logoEnabled={false}
-          attributionPosition={{ bottom: 8, right: 8 }}>
-          <Mapbox.Camera
-            defaultSettings={{
-              centerCoordinate: initialCoordinate,
-              zoomLevel: 8,
-            }}
-            type="CameraStop"
-          />
-          <Mapbox.PointAnnotation
-            id="point"
-            coordinate={initialCoordinate}></Mapbox.PointAnnotation>
-        </Mapbox.MapView>
+        {localisation && (
+          <Box>
+            <Text px={4} pb={4} fontSize={20} fontWeight={600}>
+              {localisation}
+            </Text>
+
+            <Mapbox.MapView
+              style={styles.map}
+              styleURL={`https://api.maptiler.com/maps/streets-v2/style.json?key=N0nzkKU6polJuMY5oMfd`}
+              logoEnabled={false}
+              attributionPosition={{ bottom: 8, right: 8 }}>
+              <Mapbox.Camera
+                defaultSettings={{
+                  centerCoordinate: map_image,
+                  zoomLevel: 14,
+                }}
+                type="CameraStop"
+              />
+              <Mapbox.PointAnnotation
+                id="point"
+                coordinate={map_image}></Mapbox.PointAnnotation>
+            </Mapbox.MapView>
+          </Box>
+        )}
       </ScrollView>
     </SafeAreaView>
   );
@@ -154,6 +182,6 @@ const styles = StyleSheet.create({
   map: {
     flex: 1,
     width: '100%',
-    height: 240,
+    height: 200,
   },
 });
